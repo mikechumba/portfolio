@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900|Quicksand');
 
 * {
     margin: 0;
@@ -7,4 +7,45 @@
 
 body {
     font-family: 'Montserrat', 'Quicksand';
+}
+
+a {
+    outline: none;
+}
+
+nav {
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 5px;
+    text-align: right;
+}
+nav ul li a{
+    outline: none;
+    color: #22292F;
+    float: right;
+}
+
+.logo {
+    font-family: 'Montserrat','Quicksand';
+    font-weight: 900;
+}
+ 
+a, a:focus, a:active, a:hover {
+    outline: none;
+    text-decoration: none;
+    color: #22292F;
+}
+
+#header-text {
+    position: relative;
+    width: 100%;
+}
+
+header {
+    font-size: 50px;
+    font-weight: 500;
+    margin: auto;
 }
