@@ -116,7 +116,7 @@ header h1 {
     border: none;
     color: #fff;
     z-index: 10;
-    box-shadow: #22292F 
+    box-shadow: #22292F;
 }
 
 #active {
@@ -124,32 +124,26 @@ header h1 {
 }
 
 .work {
-    margin: 0 -15px;
-    padding 15px;
+    margin: 0 15px;
+    padding: 15px;
+    width: 100%;
+}
+
+.work h1 {
+    padding: 20px 0px;
 }
 
 .tile {
-    box-shadow: 2px 2px 5px 0.9px #8795A1;
-    display: block;
-    min-height: 400px;
-    width: 25%;
-    float: left;
-    padding: 0 2px;
-    margin: auto;
     position: relative;
-}
-
-.tile-1 {
-    padding: 10px; 
-}
-
-.tile-2 {
-    padding: 10px;
-}
-
-.tile-3 {
-    padding: 10px;
+    margin: 0 1.5%;
+    width: 30%;
+    float: left;    
 } 
+
+.tile-1, .tile-2, .tile-3 {
+    float: left;
+    margin: 0 1.5%;
+}
 
 .about {
     margin: auto;
@@ -159,6 +153,20 @@ header h1 {
 
 .about p {
     padding: 30px 0;
+}
+
+.header-bar {
+    height: 50vh;
+    width: 100%;
+    background-color: #333;
+    position: relative;
+}
+
+.header-bar img {
+    width: 120px;
+    margin: 0 auto;
+    padding: 10px auto;
+    position: absolute;
 }
 
 .footer {
