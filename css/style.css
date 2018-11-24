@@ -41,7 +41,7 @@ nav ul li {
     display: inline-block;
     margin: 5px;
     text-align: right;
-    padding: right;
+    padding-right: 5px;
 }
 
 nav ul li a{
@@ -113,32 +113,27 @@ header h1 {
     box-shadow: #22292F 
 }
 
-.active {
-    color: #12283A;
+#active {
+    color: #12283A ;
 }
 
 .work {
     margin: auto;
-    padding: 15px 10px;
+    padding: 10px 12px;
     display: block;
 }
 
-.tile-1 {
-    background-color: #DAE1E7;
-    grid-column: 1;
-    grid-row: 1;
+.tile {
+    box-shadow: 2px 2px 5px 0.9px #8795A1;
+}
+
+.tile-1 {  
 }
 
 .tile-2 {
-    background-color: #DAE1E7;
-    grid-column:2;
-    grid-row: 1;
 }
 
 .tile-3 {
-    background-color: #DAE1E7;
-    grid-column: 3;
-    grid-row: 1;
 } 
 
 .about {
