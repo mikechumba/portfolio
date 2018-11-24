@@ -19,12 +19,12 @@ body {
     background-color: #DAE1E7;
     position: relative;
     width: 100%;
-    height: 100%; 
+    height: 100vh; 
 }
 
 #container {
-    padding: 0 15px;
-    height: 100vh;
+    padding: 0 -15px;
+    height: 100%;
 }
 
 .row {
@@ -40,14 +40,15 @@ nav {
     position: relative;
     text-align: right;
     padding: 15px 5px;
-    width: 100%;
+    /* width: 100%; */
     font-size: 15px;
+    margin: 15px 10px;
 }
 
 nav ul li {
     display: inline-block;
     text-align: right;
-    padding: 0 10px;
+    padding: 0 12px;
 }
 
 nav ul li a{
@@ -70,10 +71,9 @@ nav ul li a:hover, nav ul li a:focus {
     font-weight: 900;
     padding: 15px 15px;
     float: left;
+    margin: 15px 5px;
 }
 
-.logo a {
-}
  
 a, a:focus, a:active, a:hover {
     outline: none;
@@ -82,14 +82,11 @@ a, a:focus, a:active, a:hover {
 }
 
 #header-text {
+    background-color: #DAE1E7;
     position: relative;
     width: 100%;
-    margin: auto;
-    padding: 15px;
-    vertical-align: 50%;
-}
-
-header {
+    height: 50vh;
+    margin: 0 20px
 }
  
 header h1 {
@@ -153,20 +150,51 @@ header h1 {
 
 .about p {
     padding: 30px 0;
+    font-size: 15px;
+}
+
+.about a {
+    border: 2px solid #606F7B;
+    border-radius: 7%;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin: 10px 12px;
+    text-align: center;
+}
+
+.about .btn-other {
+    padding-top: 20px;
+}
+
+.about a:hover {
+    background-color: #CC1F1A;
+    border: none;
+    color: #fff;
+    z-index: 10;
+    box-shadow: #22292F;
 }
 
 .header-bar {
     height: 50vh;
     width: 100%;
-    background-color: #333;
+    background-color: #8795A1;
     position: relative;
 }
 
-.header-bar img {
-    width: 120px;
+.profile-picture {
     margin: 0 auto;
-    padding: 10px auto;
-    position: absolute;
+    width: 160px;
+    position: relative;
+    height: 30px;
+    align-items: center;    
+}
+
+.profile-picture img {
+    width: 140px;
+    border: 5px solid #606F7B;
+    border-radius: 2%;
+    position: relative;
+    top: 30px;
 }
 
 .footer {
