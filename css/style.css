@@ -8,7 +8,7 @@
 html, body {
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 body {
@@ -20,6 +20,7 @@ body {
     position: relative;
     width: 100%;
     height: 100vh; 
+    overflow-x: hidden;
 }
 
 #container {
@@ -86,7 +87,7 @@ a, a:focus, a:active, a:hover {
     position: relative;
     width: 100%;
     height: 50vh;
-    margin: 0 20px
+    margin: 0 20px;
 }
  
 header h1 {
@@ -121,24 +122,52 @@ header h1 {
 }
 
 .work {
-    margin: 0 15px;
-    padding: 15px;
     width: 100%;
+    overflow-x: hidden;
+    margin: auto;
 }
 
 .work h1 {
-    padding: 20px 0px;
+    padding: 20px 15px;
+    font-size: 18px;
+    color: #22292F;
+}
+
+.work-description {
+    text-align: left;
+    position: relative;
+    padding: 10px;
+}
+
+.work-description h3 {
+    font-size: 14px;
+}
+
+.work-description p {
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.work-description .tag {
+    color: #B8C2CC;
+    font-style: normal;
+    font-size: 13px;
+    padding: 5px 0;
 }
 
 .tile {
     position: relative;
     margin: 0 1.5%;
-    width: 30%;
-    float: left;    
+    width: 26%;
+    float: left;
+    border: none;   
+    background-color: #F1F5F8; 
 }
 
 .tile img {
-    width: 30%;
+    width: 100%;
+    height: 100%;
+    
 }
 
 .tile-1, .tile-2, .tile-3 {
@@ -146,7 +175,7 @@ header h1 {
     margin: 0 1.5%;
 }
 
-.tile-1 {
+/* .tile-1 {
     border-image: url('/images/Online\ tutor.jpg');
 }
 
@@ -156,7 +185,8 @@ header h1 {
 
 .tile-3 {
     border-image: url('/images/TPB\ Proposal.jpg');
-}
+} */
+
 .about {
     margin: auto;
     padding: 30px;
@@ -168,6 +198,7 @@ header h1 {
 .about p {
     padding: 30px 0;
     font-size: 15px;
+    line-height: 28px;
 }
 
 .about a {
@@ -214,14 +245,15 @@ header h1 {
     top: 20px;
 }
 
-.footer {
+footer {
     background-color: #22292F;
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 15vh;
+    clear: both;
 }
 
-.footer p {
+footer p {
     text-align: center;
     color: #fff;
     padding: 15px;
