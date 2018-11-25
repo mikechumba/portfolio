@@ -124,11 +124,16 @@ header h1 {
 .work {
     width: 100%;
     overflow-x: hidden;
-    margin: auto;
+    margin: 0 auto;
+}
+
+.work a .tile:hover {
+    z-index: 10;
+    box-shadow: 1px 1px 10px 6px #B8C2CC;
 }
 
 .work h1 {
-    padding: 20px 15px;
+    padding: 15px 20px;
     font-size: 18px;
     color: #22292F;
 }
@@ -152,40 +157,28 @@ header h1 {
     color: #B8C2CC;
     font-style: normal;
     font-size: 13px;
-    padding: 5px 0;
+    padding: 2px 0 0 0;
 }
 
 .tile {
     position: relative;
-    margin: 0 1.5%;
-    width: 26%;
-    float: left;
-    border: none;   
+    margin: 0 auto;
+    width: 24%;
+    float: left;  
     background-color: #F1F5F8; 
+    padding-bottom: 15px;
+    max-height: 700px;  
 }
 
 .tile img {
     width: 100%;
     height: 100%;
-    
 }
 
 .tile-1, .tile-2, .tile-3 {
     float: left;
     margin: 0 1.5%;
 }
-
-/* .tile-1 {
-    border-image: url('/images/Online\ tutor.jpg');
-}
-
-.tile-2 {
-    border-image: url('/images/Project\ 1\ Waabeh.jpg');
-}
-
-.tile-3 {
-    border-image: url('/images/TPB\ Proposal.jpg');
-} */
 
 .about {
     margin: auto;
