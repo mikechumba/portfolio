@@ -11,6 +11,8 @@ This is a project to test out basic html and css in building a static website to
 
 This project contains three pages; the home page, the about page and a project page.
 
+**Link to project:* https://mikechumba.github.io/portfolio/
+
 #### Setting Up
 
 To use this project as your own, perform the following commands in your terminal:
