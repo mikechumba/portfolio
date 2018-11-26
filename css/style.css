@@ -231,6 +231,7 @@ header h1 {
     height: 50vh;
     width: 100%;
     background-color: #8795A1;
+    background-image: url('https://images.unsplash.com/photo-1494049694820-92a3163b10ad?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3c65a3c5ece6aa00868a811993ac7ef5&auto=format&fit=crop&w=1444&q=80');
     position: absolute;
 }
 
@@ -248,6 +249,7 @@ header h1 {
     border-radius: 2%;
     position: relative;
     top: 20px;
+    border-
 }
 
 footer {
